@@ -1,25 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Team Introduction Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Intro Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6fc;
+            text-align: center;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #1e3a5f;
+        }
+
+        .team {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .member {
+            background: white;
+            padding: 25px;
+            width: 230px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .member img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .member h2 {
+            color: #234;
+        }
+
+        .member p {
+            color: #555;
+        }
+    </style>
 </head>
 <body>
 
     <h1>Welcome to Our Team</h1>
+    <p>Meet the members of our product-based startup.</p>
 
-    <h2>Team Members</h2>
+    <div class="team">
 
-    <h3>Srivalli</h3>
-    <p>Department: Computer Science and Engineering</p>
+        <div class="member">
+            <img src="https://via.placeholder.com/120" alt="Team Member Photo">
+            <h2>Akshaya</h2>
+            <p><strong>Department:</strong> Software Development</p>
+        </div>
 
-    <h3>Rahul</h3>
-    <p>Department: Software Development</p>
+        <div class="member">
+            <img src="https://via.placeholder.com/120" alt="Team Member Photo">
+            <h2>Srivalli</h2>
+            <p><strong>Department:</strong> Product Design</p>
+        </div>
 
-    <h3>Ananya</h3>
-    <p>Department: Artificial Intelligence</p>
-    <p>Role: Intern</p>
+	<div class="member">
+            <img src="https://via.placeholder.com/120" alt="Team Member Photo">
+            <h2>Jayshree</h2>
+            <p><strong>Department:</strong> UI/UX Design</p>
+        </div>
+	
+	<div class="member">
+            <img src="https://via.placeholder.com/120" alt="Team Member Photo">
+            <h2>Tulsi</h2>
+            <p><strong>Department:</strong> Backend Developement</p>
+        </div>
 
-</body>
-</html>
+	<div class="member">
+            <img src="https://via.placeholder.com/120" alt="Team Member Photo">
+            <h2>Daivik</h2>
+            <p><strong>Department:</strong> Software Development</p>
+        </div>	
+
+    </div>
+
 </body>
 </html>
